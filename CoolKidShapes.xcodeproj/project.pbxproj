@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99AFAFA71F79403A00C8241E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFAFA61F79403A00C8241E /* AppDelegate.swift */; };
+		99AFAFA91F79403A00C8241E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFAFA81F79403A00C8241E /* ViewController.swift */; };
+		99AFAFAC1F79403A00C8241E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AFAFAA1F79403A00C8241E /* Main.storyboard */; };
+		99AFAFAE1F79403A00C8241E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AFAFAD1F79403A00C8241E /* Assets.xcassets */; };
+		99AFAFB11F79403A00C8241E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AFAFAF1F79403A00C8241E /* LaunchScreen.storyboard */; };
+		99AFAFBC1F79403A00C8241E /* CoolKidShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFAFBB1F79403A00C8241E /* CoolKidShapesTests.swift */; };
+		99AFAFC71F79403A00C8241E /* CoolKidShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFAFC61F79403A00C8241E /* CoolKidShapesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99AFAFB81F79403A00C8241E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99AFAF9B1F79403900C8241E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AFAFA21F79403900C8241E;
+			remoteInfo = CoolKidShapes;
+		};
+		99AFAFC31F79403A00C8241E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99AFAF9B1F79403900C8241E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AFAFA21F79403900C8241E;
+			remoteInfo = CoolKidShapes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99AFAFA31F79403A00C8241E /* CoolKidShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolKidShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AFAFA61F79403A00C8241E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99AFAFA81F79403A00C8241E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99AFAFAB1F79403A00C8241E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99AFAFAD1F79403A00C8241E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99AFAFB01F79403A00C8241E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99AFAFB21F79403A00C8241E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99AFAFB71F79403A00C8241E /* CoolKidShapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolKidShapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AFAFBB1F79403A00C8241E /* CoolKidShapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolKidShapesTests.swift; sourceTree = "<group>"; };
+		99AFAFBD1F79403A00C8241E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99AFAFC21F79403A00C8241E /* CoolKidShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolKidShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AFAFC61F79403A00C8241E /* CoolKidShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolKidShapesUITests.swift; sourceTree = "<group>"; };
+		99AFAFC81F79403A00C8241E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99AFAFA01F79403900C8241E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFB41F79403A00C8241E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFBF1F79403A00C8241E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99AFAF9A1F79403900C8241E = {
+			isa = PBXGroup;
+			children = (
+				99AFAFA51F79403A00C8241E /* CoolKidShapes */,
+				99AFAFBA1F79403A00C8241E /* CoolKidShapesTests */,
+				99AFAFC51F79403A00C8241E /* CoolKidShapesUITests */,
+				99AFAFA41F79403A00C8241E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99AFAFA41F79403A00C8241E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99AFAFA31F79403A00C8241E /* CoolKidShapes.app */,
+				99AFAFB71F79403A00C8241E /* CoolKidShapesTests.xctest */,
+				99AFAFC21F79403A00C8241E /* CoolKidShapesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99AFAFA51F79403A00C8241E /* CoolKidShapes */ = {
+			isa = PBXGroup;
+			children = (
+				99AFAFA61F79403A00C8241E /* AppDelegate.swift */,
+				99AFAFA81F79403A00C8241E /* ViewController.swift */,
+				99AFAFAA1F79403A00C8241E /* Main.storyboard */,
+				99AFAFAD1F79403A00C8241E /* Assets.xcassets */,
+				99AFAFAF1F79403A00C8241E /* LaunchScreen.storyboard */,
+				99AFAFB21F79403A00C8241E /* Info.plist */,
+			);
+			path = CoolKidShapes;
+			sourceTree = "<group>";
+		};
+		99AFAFBA1F79403A00C8241E /* CoolKidShapesTests */ = {
+			isa = PBXGroup;
+			children = (
+				99AFAFBB1F79403A00C8241E /* CoolKidShapesTests.swift */,
+				99AFAFBD1F79403A00C8241E /* Info.plist */,
+			);
+			path = CoolKidShapesTests;
+			sourceTree = "<group>";
+		};
+		99AFAFC51F79403A00C8241E /* CoolKidShapesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99AFAFC61F79403A00C8241E /* CoolKidShapesUITests.swift */,
+				99AFAFC81F79403A00C8241E /* Info.plist */,
+			);
+			path = CoolKidShapesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99AFAFA21F79403900C8241E /* CoolKidShapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AFAFCB1F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapes" */;
+			buildPhases = (
+				99AFAF9F1F79403900C8241E /* Sources */,
+				99AFAFA01F79403900C8241E /* Frameworks */,
+				99AFAFA11F79403900C8241E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolKidShapes;
+			productName = CoolKidShapes;
+			productReference = 99AFAFA31F79403A00C8241E /* CoolKidShapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99AFAFB61F79403A00C8241E /* CoolKidShapesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AFAFCE1F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapesTests" */;
+			buildPhases = (
+				99AFAFB31F79403A00C8241E /* Sources */,
+				99AFAFB41F79403A00C8241E /* Frameworks */,
+				99AFAFB51F79403A00C8241E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99AFAFB91F79403A00C8241E /* PBXTargetDependency */,
+			);
+			name = CoolKidShapesTests;
+			productName = CoolKidShapesTests;
+			productReference = 99AFAFB71F79403A00C8241E /* CoolKidShapesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99AFAFC11F79403A00C8241E /* CoolKidShapesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AFAFD11F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapesUITests" */;
+			buildPhases = (
+				99AFAFBE1F79403A00C8241E /* Sources */,
+				99AFAFBF1F79403A00C8241E /* Frameworks */,
+				99AFAFC01F79403A00C8241E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99AFAFC41F79403A00C8241E /* PBXTargetDependency */,
+			);
+			name = CoolKidShapesUITests;
+			productName = CoolKidShapesUITests;
+			productReference = 99AFAFC21F79403A00C8241E /* CoolKidShapesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99AFAF9B1F79403900C8241E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "L&M Corp.";
+				TargetAttributes = {
+					99AFAFA21F79403900C8241E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					99AFAFB61F79403A00C8241E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99AFAFA21F79403900C8241E;
+					};
+					99AFAFC11F79403A00C8241E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99AFAFA21F79403900C8241E;
+					};
+				};
+			};
+			buildConfigurationList = 99AFAF9E1F79403900C8241E /* Build configuration list for PBXProject "CoolKidShapes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99AFAF9A1F79403900C8241E;
+			productRefGroup = 99AFAFA41F79403A00C8241E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AFAFA21F79403900C8241E /* CoolKidShapes */,
+				99AFAFB61F79403A00C8241E /* CoolKidShapesTests */,
+				99AFAFC11F79403A00C8241E /* CoolKidShapesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99AFAFA11F79403900C8241E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFAFB11F79403A00C8241E /* LaunchScreen.storyboard in Resources */,
+				99AFAFAE1F79403A00C8241E /* Assets.xcassets in Resources */,
+				99AFAFAC1F79403A00C8241E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFB51F79403A00C8241E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFC01F79403A00C8241E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99AFAF9F1F79403900C8241E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFAFA91F79403A00C8241E /* ViewController.swift in Sources */,
+				99AFAFA71F79403A00C8241E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFB31F79403A00C8241E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFAFBC1F79403A00C8241E /* CoolKidShapesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AFAFBE1F79403A00C8241E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AFAFC71F79403A00C8241E /* CoolKidShapesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99AFAFB91F79403A00C8241E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99AFAFA21F79403900C8241E /* CoolKidShapes */;
+			targetProxy = 99AFAFB81F79403A00C8241E /* PBXContainerItemProxy */;
+		};
+		99AFAFC41F79403A00C8241E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99AFAFA21F79403900C8241E /* CoolKidShapes */;
+			targetProxy = 99AFAFC31F79403A00C8241E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99AFAFAA1F79403A00C8241E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99AFAFAB1F79403A00C8241E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99AFAFAF1F79403A00C8241E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99AFAFB01F79403A00C8241E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99AFAFC91F79403A00C8241E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99AFAFCA1F79403A00C8241E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99AFAFCC1F79403A00C8241E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoolKidShapes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		99AFAFCD1F79403A00C8241E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoolKidShapes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		99AFAFCF1F79403A00C8241E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoolKidShapesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolKidShapes.app/CoolKidShapes";
+			};
+			name = Debug;
+		};
+		99AFAFD01F79403A00C8241E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoolKidShapesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoolKidShapes.app/CoolKidShapes";
+			};
+			name = Release;
+		};
+		99AFAFD21F79403A00C8241E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoolKidShapesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoolKidShapes;
+			};
+			name = Debug;
+		};
+		99AFAFD31F79403A00C8241E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CoolKidShapesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leart-maia.CoolKidShapesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CoolKidShapes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99AFAF9E1F79403900C8241E /* Build configuration list for PBXProject "CoolKidShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFAFC91F79403A00C8241E /* Debug */,
+				99AFAFCA1F79403A00C8241E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AFAFCB1F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFAFCC1F79403A00C8241E /* Debug */,
+				99AFAFCD1F79403A00C8241E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99AFAFCE1F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFAFCF1F79403A00C8241E /* Debug */,
+				99AFAFD01F79403A00C8241E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99AFAFD11F79403A00C8241E /* Build configuration list for PBXNativeTarget "CoolKidShapesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AFAFD21F79403A00C8241E /* Debug */,
+				99AFAFD31F79403A00C8241E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99AFAF9B1F79403900C8241E /* Project object */;
+}
