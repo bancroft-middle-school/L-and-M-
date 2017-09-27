@@ -1,26 +1,78 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoolKidShapes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoolKidShapes " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5C-0w-nzc">
+                                <rect key="frame" x="257.5" y="66" width="253.5" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253.5" id="7U2-cD-7YY"/>
+                                    <constraint firstAttribute="height" constant="43" id="HPe-dG-GsM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.12827850422305254" green="0.25947682226425517" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYg-x4-bCr">
+                                <rect key="frame" x="261" y="214" width="246" height="124"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.97016815652923238" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="SHY-nf-WD3"/>
+                                    <constraint firstAttribute="height" constant="125" id="mEP-OO-ohC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="Play!"/>
+                                <connections>
+                                    <action selector="buttonplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5kL-hz-pKL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30y-oZ-ijj">
+                                <rect key="frame" x="261" y="560" width="246" height="171"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="171" id="Ns5-n7-k9z"/>
+                                    <constraint firstAttribute="width" constant="246" id="pPi-3O-7vR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87165111699811826" green="1" blue="0.82517420625624827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z5C-0w-nzc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="4OO-PL-ktC"/>
+                            <constraint firstItem="30y-oZ-ijj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="560" id="5RE-gZ-Gw7"/>
+                            <constraint firstItem="SYg-x4-bCr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PGy-Ud-FDJ"/>
+                            <constraint firstItem="z5C-0w-nzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ksy-hb-epw"/>
+                            <constraint firstItem="30y-oZ-ijj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qgL-Vm-q50"/>
+                            <constraint firstItem="SYg-x4-bCr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="194" id="s9U-5C-0u2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="30y-oZ-ijj" id="nbz-ZD-jxb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-98.4375" y="123.63281249999999"/>
         </scene>
     </scenes>
 </document>
