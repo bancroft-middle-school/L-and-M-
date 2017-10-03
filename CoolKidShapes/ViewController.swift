@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     @IBAction func buttonplay(_ sender: Any) {
         label1.text = "Let's Go!"
     }
+    @IBAction func button2(_ sender: Any) {
+        label1.text = "Are You Ready?"
+    }
 
     }
