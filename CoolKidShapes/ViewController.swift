@@ -10,10 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var questions = ["What is this shape?"]
+    
+    var answers = [["Cicle"]]
+    
+    @IBOutlet weak var buttonplay: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         label1.text = "What is this shape?"
-   
+    
     }
     
     @IBOutlet weak var label1: UILabel!
@@ -27,6 +35,13 @@ class ViewController: UIViewController {
     }
     @IBAction func button3(_ sender: Any) {
         label1.text = "Incorrect! Try again"
-    }
 
     }
+    
+    
+
+}
+
+      
+
+

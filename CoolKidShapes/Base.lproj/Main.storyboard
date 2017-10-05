@@ -107,6 +107,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button2" destination="FL9-4x-Vu7" id="485-of-yu8"/>
+                        <outlet property="button3" destination="TI2-Q1-AYF" id="8gh-sJ-ls2"/>
+                        <outlet property="buttonplay" destination="SYg-x4-bCr" id="468-zC-4ey"/>
                         <outlet property="label1" destination="30y-oZ-ijj" id="nbz-ZD-jxb"/>
                     </connections>
                 </viewController>
