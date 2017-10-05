@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label1.text = "Are you ready?"
+        label1.text = "What is this shape?"
    
     }
     
@@ -20,10 +20,13 @@ class ViewController: UIViewController {
 
     
     @IBAction func buttonplay(_ sender: Any) {
-        label1.text = "Let's Go!"
+        label1.text = "Correct!"
     }
     @IBAction func button2(_ sender: Any) {
-        label1.text = "Are You Ready?"
+        label1.text = "Incorrect! Try again"
+    }
+    @IBAction func button3(_ sender: Any) {
+        label1.text = "Incorrect! Try again"
     }
 
     }
