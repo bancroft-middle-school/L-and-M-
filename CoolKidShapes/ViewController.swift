@@ -9,37 +9,61 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //array of shapes
+    var shapes = ["circle", "square", "triangle"]
+    var randomNumber = 0
     
-    var questions = ["What is this shape?"]
-    
-    var answers = [["Cicle"]]
-    
-    @IBOutlet weak var buttonplay: UIButton!
-    @IBOutlet weak var button2: UIButton!
-    @IBOutlet weak var button3: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label1.text = "What is this shape?"
-    
+        displayShape()
     }
     
+    //all the the outlets
+    @IBOutlet weak var circle: UIButton!
+    @IBOutlet weak var square: UIButton!
+    @IBOutlet weak var triangle: UIButton!
     @IBOutlet weak var label1: UILabel!
-
-    
-    @IBAction func buttonplay(_ sender: Any) {
-        label1.text = "Correct!"
-    }
-    @IBAction func button2(_ sender: Any) {
-        label1.text = "Incorrect! Try again"
-    }
-    @IBAction func button3(_ sender: Any) {
-        label1.text = "Incorrect! Try again"
-
-    }
+    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var nextQuestion: UIButton!
     
     
+    //all the actions
+    @IBAction func circle(_ sender: Any) {
+        checkAnswer(buttonPressed: 0)
+    }
+    @IBAction func square(_ sender: Any) {
+        checkAnswer(buttonPressed: 1)
+    }
+    @IBAction func triangle(_ sender: Any) {
+        //TODO
+    }
+    
+    @IBAction func nextQuestion(_ sender: Any) {
+        displayShape()
+        
+        
+    }
+    //TODO #1 - Use the this random generator to set the label1 text to the correct element of the array.
+    func displayShape(){
+        randomNumber = Int(arc4random_uniform(UInt32(3))) //creates a random number and assigns it to the variable randomNumber
+        
+        //TODO
+        circle.isHidden = false
+        square.isHidden = false
+        triangle.isHidden = false
+        label1.isHidden = false
+        result.isHidden = true
+        nextQuestion.isHidden = true
 
+    }
+    
+    func checkAnswer(buttonPressed: Int) {
+        print(buttonPressed)
+        //TODO #2 - use an if/then else statement to check if the random shape is equal to the button pressed. Add the last remaining function call to the triangle. Then show and hide the proper buttons.
+    }
+    
+    
 }
 
       
