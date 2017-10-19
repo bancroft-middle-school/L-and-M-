@@ -43,21 +43,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYg-x4-bCr">
-                                <rect key="frame" x="258" y="172" width="252" height="131"/>
+                                <rect key="frame" x="257" y="135" width="252" height="168"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="03E-Rs-6JI"/>
                                     <constraint firstAttribute="width" constant="246" id="J7X-nR-fyI"/>
-                                    <constraint firstAttribute="height" constant="101" id="zRV-mh-gya"/>
                                 </constraints>
-                                <state key="normal" image="circle-clip-art-red-circle-md"/>
+                                <state key="normal" image="download-1"/>
                                 <connections>
                                     <action selector="circle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUI-R3-FyM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI2-Q1-AYF">
-                                <rect key="frame" x="264" y="498" width="246" height="104"/>
+                                <rect key="frame" x="256" y="479" width="246" height="155"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="J2v-23-Mzr"/>
-                                    <constraint firstAttribute="height" constant="102" id="glD-Nz-Iml"/>
+                                    <constraint firstAttribute="width" constant="246" id="B2G-jt-Zlh"/>
+                                    <constraint firstAttribute="height" constant="155" id="Jka-D4-VVb"/>
                                 </constraints>
                                 <state key="normal" image="Image"/>
                                 <connections>
@@ -84,10 +84,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL9-4x-Vu7">
-                                <rect key="frame" x="264" y="343" width="238" height="112"/>
+                                <rect key="frame" x="260" y="311" width="238" height="173"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="5O6-Hk-AFL"/>
-                                    <constraint firstAttribute="height" constant="97" id="wDP-9Z-jzI"/>
+                                    <constraint firstAttribute="height" constant="173" id="IMQ-cr-NIi"/>
+                                    <constraint firstAttribute="width" constant="238" id="mBO-SV-rno"/>
                                 </constraints>
                                 <state key="normal" image="download-2"/>
                                 <connections>
@@ -98,17 +98,17 @@
                         <color key="backgroundColor" red="0.87165111699811826" green="1" blue="0.82517420625624827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="z5C-0w-nzc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="4OO-PL-ktC"/>
+                            <constraint firstItem="TI2-Q1-AYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4gl-Ih-DNv"/>
                             <constraint firstItem="oli-8m-VOt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4la-aq-ddT"/>
-                            <constraint firstItem="SYg-x4-bCr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="199" id="Hfu-FH-z5w"/>
                             <constraint firstItem="SYg-x4-bCr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L4O-vH-Vhi"/>
+                            <constraint firstItem="FL9-4x-Vu7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="McT-6H-Gj0"/>
                             <constraint firstItem="oli-8m-VOt" firstAttribute="top" secondItem="z5C-0w-nzc" secondAttribute="bottom" constant="202" id="NM2-vN-Ugt"/>
-                            <constraint firstItem="FL9-4x-Vu7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PWz-FP-11G"/>
-                            <constraint firstItem="TI2-Q1-AYF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="434" id="Rlr-iM-9cU"/>
-                            <constraint firstItem="FL9-4x-Vu7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="317" id="aGL-yS-0lg"/>
-                            <constraint firstItem="TI2-Q1-AYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="axq-Op-Kn9"/>
                             <constraint firstItem="30y-oZ-ijj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eBM-3i-xYz"/>
+                            <constraint firstItem="SYg-x4-bCr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="135" id="h6C-E4-jX8"/>
                             <constraint firstItem="z5C-0w-nzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ksy-hb-epw"/>
+                            <constraint firstItem="FL9-4x-Vu7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="311" id="oXE-8H-lNI"/>
                             <constraint firstItem="30y-oZ-ijj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="560" id="w9G-Sc-Lqz"/>
+                            <constraint firstItem="TI2-Q1-AYF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="479" id="zp2-HK-adU"/>
                         </constraints>
                     </view>
                     <connections>
@@ -126,8 +126,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="120" height="104"/>
-        <image name="circle-clip-art-red-circle-md" width="112" height="112"/>
+        <image name="Image" width="1050" height="750"/>
+        <image name="download-1" width="1050" height="750"/>
         <image name="download-2" width="112" height="112"/>
     </resources>
 </document>
