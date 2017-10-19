@@ -68,11 +68,15 @@ class ViewController: UIViewController {
     } else {
         label1.text = "Wrong, try again."
     }
-    
-    }
-    
+
+    circle.isHidden = true
+    square.isHidden = true
+    triangle.isHidden = true
+    label1.isHidden = false
+    result.isHidden = false
+    nextQuestion.isHidden = false
+
 }
 
-      
 
-
+     }

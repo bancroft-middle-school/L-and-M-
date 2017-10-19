@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,29 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoolKidShapes " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5C-0w-nzc">
-                                <rect key="frame" x="257.5" y="66" width="253.5" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="253.5" id="7U2-cD-7YY"/>
-                                    <constraint firstAttribute="height" constant="43" id="HPe-dG-GsM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.12827850422305254" green="0.25947682226425517" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYg-x4-bCr">
-                                <rect key="frame" x="261" y="219" width="246" height="101"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.97016815652923238" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="J7X-nR-fyI"/>
-                                    <constraint firstAttribute="height" constant="101" id="zRV-mh-gya"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <state key="normal" title="Circle"/>
-                                <connections>
-                                    <action selector="circle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUI-R3-FyM"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30y-oZ-ijj">
                                 <rect key="frame" x="0.0" y="560" width="768" height="171"/>
                                 <constraints>
@@ -55,28 +32,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL9-4x-Vu7">
-                                <rect key="frame" x="261" y="349" width="250" height="97"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.9107362492857467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoolKidShapes " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5C-0w-nzc">
+                                <rect key="frame" x="258" y="66" width="253" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="5O6-Hk-AFL"/>
-                                    <constraint firstAttribute="height" constant="97" id="wDP-9Z-jzI"/>
+                                    <constraint firstAttribute="width" constant="253.5" id="7U2-cD-7YY"/>
+                                    <constraint firstAttribute="height" constant="43" id="HPe-dG-GsM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <state key="normal" title="Square"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.12827850422305254" green="0.25947682226425517" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYg-x4-bCr">
+                                <rect key="frame" x="258" y="172" width="252" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="J7X-nR-fyI"/>
+                                    <constraint firstAttribute="height" constant="101" id="zRV-mh-gya"/>
+                                </constraints>
+                                <state key="normal" image="circle-clip-art-red-circle-md"/>
                                 <connections>
-                                    <action selector="square:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KfZ-FP-l5X"/>
+                                    <action selector="circle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUI-R3-FyM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI2-Q1-AYF">
-                                <rect key="frame" x="261" y="475" width="246" height="102"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.91073624929999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI2-Q1-AYF">
+                                <rect key="frame" x="264" y="498" width="246" height="104"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="246" id="J2v-23-Mzr"/>
                                     <constraint firstAttribute="height" constant="102" id="glD-Nz-Iml"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <state key="normal" title="Triangle"/>
+                                <state key="normal" image="Image"/>
                                 <connections>
                                     <action selector="triangle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nuM-QV-68N"/>
                                 </connections>
@@ -89,7 +72,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oli-8m-VOt">
-                                <rect key="frame" x="259.5" y="311" width="249" height="99"/>
+                                <rect key="frame" x="260" y="311" width="249" height="99"/>
                                 <color key="backgroundColor" red="1" green="0.0072984330357088734" blue="0.55928570334914274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="WNM-Yb-VEa"/>
@@ -98,6 +81,17 @@
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="nextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ExN-6w-hlN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL9-4x-Vu7">
+                                <rect key="frame" x="264" y="343" width="238" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="5O6-Hk-AFL"/>
+                                    <constraint firstAttribute="height" constant="97" id="wDP-9Z-jzI"/>
+                                </constraints>
+                                <state key="normal" image="download-2"/>
+                                <connections>
+                                    <action selector="square:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KfZ-FP-l5X"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -131,4 +125,9 @@
             <point key="canvasLocation" x="-98.4375" y="123.63281249999999"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="120" height="104"/>
+        <image name="circle-clip-art-red-circle-md" width="112" height="112"/>
+        <image name="download-2" width="112" height="112"/>
+    </resources>
 </document>
