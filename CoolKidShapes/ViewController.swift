@@ -53,7 +53,6 @@ class ViewController: UIViewController {
         square.isHidden = false
         triangle.isHidden = false
         label1.isHidden = false
-        result.isHidden = true
         nextQuestion.isHidden = true
 
     }
@@ -73,7 +72,6 @@ class ViewController: UIViewController {
     square.isHidden = true
     triangle.isHidden = true
     label1.isHidden = false
-    result.isHidden = false
     nextQuestion.isHidden = false
 
 }
